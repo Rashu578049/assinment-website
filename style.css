@@ -6,10 +6,10 @@
     width:200px;
 }
 .nav-container{
-    background-color: gray;
+    background-color: rgb(241, 114, 114);
     display:flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 20px;
     align-items: center;
 }
 .menus{
@@ -18,4 +18,42 @@
     gap:10px;
     font-size: 20px;
     color:white;
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("banner.png"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: center;
+    display: flex;
+    align-items: center; */
+}
+.banner-info{
+    text-align: center;
+    padding-top:250px;
+}
+.title{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.praimary{
+    color:red;
+}
+.description{
+    color:wheat;
+    font-size: x-large;
+    font-style: italic;
+    padding:10px;
+}
+.btn{
+    padding:12px 20px;
+    border-radius: 5px;
+    border: none;
+    color:red;
+}
+.bng-praimary{
+    background-color: blue;
 }
