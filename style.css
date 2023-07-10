@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.image{
+    width:200px;
+}
+.nav-container{
+    background-color: gray;
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.menus{
+    display: flex;
+    list-style: none;
+    gap:10px;
+    font-size: 20px;
+    color:white;
+}
